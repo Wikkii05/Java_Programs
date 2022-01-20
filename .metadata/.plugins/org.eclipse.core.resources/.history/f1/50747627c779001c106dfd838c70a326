@@ -1,0 +1,34 @@
+package inheritanceSingle;
+
+class one {
+	      
+	      public void print_vicky()
+	         {
+	    	  System.out.println(" Vicky ");
+	         }
+          }
+class two extends one {
+	      public void print_for()
+	         {
+	    	  System.out.println(" for ");
+	         }
+                      }
+class three extends two {
+	      public void print_vicky()
+	         {
+	    	  System.out.println(" Vicky ");
+	         }
+	      
+                        }
+public class MultiLevelTest {
+          public static void main(String [] args) {
+        	  
+        	  three v = new three ();
+        	  v.print_vicky();
+        	  v.print_for();
+        	  v.print_vicky();
+                            }
+}
+
+
+

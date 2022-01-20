@@ -1,0 +1,23 @@
+package mulitifications;
+
+import java.util.Scanner;
+
+public class Mulitifications_Tables {
+	
+	 public static void main(String[] args)
+	 
+	 {
+		 try (Scanner sc = new Scanner(System.in)) {
+			int i,n;
+			 System.out.println("Enter the number : ");
+			 n=sc.nextInt();
+			 
+			 for( i=1;i<=1000;i++)
+			 {
+				 System.out.println(n+" * "+i+" = "+n*i);
+			 }
+		}
+			 
+	 }
+
+}

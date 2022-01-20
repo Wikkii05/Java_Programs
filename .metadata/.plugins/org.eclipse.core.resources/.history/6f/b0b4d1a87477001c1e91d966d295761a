@@ -1,0 +1,28 @@
+package ArrayAddition;
+
+public class Additions {
+	
+	 public static void main(String [] args)
+	 
+	 
+	 {
+		 int [] [] a= { 
+				 {1, 1, 1,},
+				 {1, 1, 1,},
+				 {1, 1, 1,}
+	                	 };
+		 int [] [] b= {
+				 {2, 2, 2,},
+				 {2, 2, 2,},
+				 {2, 2, 2,}
+		                  };
+		 
+		    System.out.println("== Matrix A ==");
+		         for (int i=0;i<a.length;i++) {
+		         	for (int j=0;j<a[i].length;j++) {
+		    		    System.out.print(a[i][j]+" ");
+		         }
+		     
+		         }
+	 }
+}

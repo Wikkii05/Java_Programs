@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class CompareTwoArraysDemo {
+	
+	
+	public static void main(String[] args)
+	
+	{
+		int arr1 [] = {1,2,3,4};
+		int arr2 [] = {1,2,3,4};
+		
+	boolean arr3 = Arrays.equals( arr1,arr2);
+	}
+
+}

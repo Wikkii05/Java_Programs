@@ -1,0 +1,9 @@
+package BicycleDemo;
+
+public class Bicycle {
+
+	public Bicycle() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

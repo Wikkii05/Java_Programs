@@ -1,0 +1,9 @@
+package inheritanceSingle;
+
+public class MultiLevelTest {
+
+	public MultiLevelTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
